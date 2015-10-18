@@ -1,0 +1,6 @@
+.pub/
+.packages
+.env
+.cupid_history
+storage
+packages

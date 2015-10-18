@@ -1,0 +1,12 @@
+@extends ('app')
+
+@start block ('content')
+  <ul id="messages">
+    @for (message in messages)
+      <li>${message.content}</li>
+    @end for
+  </ul>
+
+<input type="text" id="input">
+<button id="submit">Send</button>
+@end block
